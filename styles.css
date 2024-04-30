@@ -1,0 +1,210 @@
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  opacity: 1;
+    z-index: 99901;
+    visibility: visible;
+    background-color: white;
+}
+
+.logo-wrapper {
+  padding: 20px 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  padding: 10px 70px 0 0;
+}
+
+.nav-options-collection {
+  background-color: white !important;
+}
+
+.nav-options:hover {
+  color: #C77A63;
+}
+
+.nav-item, .dropdown {
+  padding: 0 5px;
+}
+
+.dropdown-wrapper a {
+  /* padding: 0 2px !important; */
+}
+
+.book-btn {
+  padding: 11px 35px 13px;;
+  border-radius: 1px;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.book-btn:hover {
+  background-color: #C77A63;
+  color: white;
+  transition: 0.5s;
+  border: none;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-portion {
+  display: flex;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon i {
+  font-size: 18px;
+  padding: 0 30px 0 0;
+}
+
+.search-icon i:hover {
+  color: #C77A63;
+  transition: 0.5s;
+}
+
+.nav-options {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #2c2a49;
+  opacity: 1;
+  transition: all .3s ease;
+}
+.nav-options a {
+  
+  padding: 3px 0;
+}
+
+.nav-options a:hover {
+  color: #C77A63 !important;
+  transition: all .3s ease;
+}
+
+/* --------------------------------------------------nav-bar-end------------------------------------------------------------------- */
+
+
+
+
+
+/* -----------------------------------------------summer-vacation-start---------------------------------------------------------------- */
+.summer-vacation-wrapper {
+  display: flex;
+}
+
+.summer-vacation-desc {
+  padding: 0 0 0 105px;
+  background-color: #FDFDFD;
+}
+
+.above-title h4 {
+  position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #C77A63;
+    margin-bottom: 15px;
+    transition: all .5s ease;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.summer-vacation-desc {
+  padding: 150px 0 0 105px;
+}
+
+.summer-vacation-header h1 {
+  color: #2c2a49;
+  font-weight: 700;
+  font-size: 100px;
+  font-family: "Cormorant", sans-serif;
+}
+
+.summer-vacation-para {
+  font-size: 18px;
+    line-height: 32px;
+    padding: 0 0 15px;
+}
+
+.book-now-btn {
+  position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    padding: 17px 35px 16px;
+    text-align: center;
+    z-index: 1;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+    background-color: #C77A63;
+    border: none;
+    border-radius: 1px;
+    color: black;
+}
+
+.book-now-btn:hover{
+  background-color: #2C2A49;
+  color: white;
+  transition: 0.5s;
+}
+
+.bookingbtn {
+  padding-top: 20px;
+
+}
+
+
+/* -----------------------------------------------summer-vacation-end---------------------------------------------------------------- */
+
+
+
+
+/* <!-- ------------------------------------------------availability-check-start----------------------------------------------------- --> */
+
+
+.availability-wrapper {
+  background-color: #FAF5F2;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.form-select:hover {
+  box-shadow: none;
+  border: none;
+}
+
+/* .form-select:focus {
+  box-shadow: none;
+} */
+
+/* <!-- ------------------------------------------------availability-check-end----------------------------------------------------- --> */
