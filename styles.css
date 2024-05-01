@@ -64,6 +64,7 @@
 .search-wrapper {
   display: flex;
   align-items: center;
+  justify-content: right;
 }
 
 .search-portion {
@@ -586,6 +587,11 @@
 
 /* <!-- ----------------------------------------------------testimonials-start---------------------------------------------------- --> */
 
+.testimonials-main-wrapper {
+  position: relative;
+  padding: 0 0 50px 0;
+}
+
 .testimonials-inner-wrapper {
   /* padding: 150px 0 120px; */
   width: 90%;
@@ -636,7 +642,6 @@
     color: #222;
 }
 
-
 .testimonial-name {
   font-size: 30px;
   font-weight: 400;
@@ -675,5 +680,123 @@
   width: 100%;
 }
 
+.pattern-img {
+    position: absolute;
+    bottom: 23px;
+    left: 409px;
+    z-index: -1;
+}
 
 /* <!-- ----------------------------------------------------testimonials-end---------------------------------------------------- --> */
+
+
+
+/* <!-- -------------------------------------------------testimonials-image-start---------------------------------------------------- --> */
+
+.testimonial-image-main-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/parallax-bg.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 0 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+ 
+}
+
+
+.testimonial-image {
+  text-align: center !important;
+}
+
+.testimonial-image-heading {
+  color: white;
+}
+
+.test-image-check-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.check-test-btn {
+  color: white;
+}
+
+.testimonial-image-inner-wrapper {
+  padding: 150px 0;
+}
+
+
+/* <!-- ----------------------------------------------------testimonials-image-end---------------------------------------------------- --> */
+
+
+
+
+/* <!-- ----------------------------------------------------our-article-start---------------------------------------------------- --> */
+
+.article-main-wrapper {
+  padding: 150px 0;
+}
+
+.article-desc {
+  position: relative;
+  padding: 30px;
+    background: #fff;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, .07);
+    max-width: 360px;
+    margin-top: -70px;
+    z-index: 5;
+}
+
+.article-image-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.each-article-image:hover  a{
+  filter: brightness(0.8);
+  transition: 0.2s ease-in-out;
+}
+
+.date-of-article {
+  position: relative;
+    z-index: 9;
+    line-height: 1.4em;
+    color: #C77A63;
+    background: rgba(199, 122, 99, .2);
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    margin-bottom: 17px;
+}
+
+.article-header {
+  text-align: left;
+  padding: 0;
+}
+
+.article-para, .article-para-content {
+  color: #6e6e6e;
+  line-height: 1.8;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.article-arrow-icon {
+  padding: 0;
+  transform: none;
+  width: 50px;
+  height: 50px;
+  line-height: 47px;
+  border: 1px solid #e5e5e5;
+}
+
+.article-arrow-icon:hover {
+  background-color: #C77A63;
+  color: white;
+  transition: 0.5s;
+  
+}
+
+/* <!-- ----------------------------------------------------our-article-end---------------------------------------------------- --> */
