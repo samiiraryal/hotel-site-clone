@@ -133,7 +133,6 @@
     transition: all .5s ease;
     font-family: inherit;
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
 .summer-vacation-desc {
@@ -150,7 +149,7 @@
 .summer-vacation-para {
   font-size: 18px;
     line-height: 32px;
-    padding: 0 0 15px;
+    padding: 5px 0 0;
 }
 
 .book-now-btn {
@@ -268,6 +267,7 @@
 
 .offer-heading, .exclusive-off {
   text-align: center  ;
+  letter-spacing: 5px;
 }
 
 .exclusive-offer-wrapper {
@@ -975,17 +975,335 @@
   line-height: 35px;
 }
 
+.link-footer {
+  padding: 0 0 0 20px;
+}
+
 .hours-footer {
-  width: 17%;
+  padding: 0 0 0 80px;
 }
 
 p {
   color: #6e6e6e;
   font-size: 16px;
+  line-height: 1.8;
 }
 
 .footer-para {
   color: #bebec3;
+  margin-bottom: 2rem;
+  width: 82%;
 }
 
 /* <!-- ----------------------------------------------------footer-end---------------------------------------------------- --> */
+
+
+
+
+/* ------------------------------------------------about-us-start------------------------------------------------------------- */
+
+.about-us-below-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.main-top-header {
+  color: #fff;
+    font-size: 80px;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Cormorant", sans-serif;
+    text-align: center;
+}
+
+.indication-section {
+  padding: 22px 0;
+    background: #faf5f2;
+    display: flex;
+    justify-content: center;
+    color: #2c2a49;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.indication-section i {
+  padding: 5px 5px;
+}
+
+.about-section-header {
+  font-size: 60px;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.discover-more-btn {
+  color: white;
+}
+
+.about-section-inner-wrapper {
+  display: flex;
+  gap: 50px;
+  padding: 120px 0 160px;
+}
+
+.about-section-img {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+.about-section-words {
+  
+  max-width: 50% ;
+}
+
+.about-second-img {
+  position: absolute;
+    left: 380px;
+    top: 230px;
+}
+
+.about-above-title {
+  padding: 70px 0 0 0;
+}
+
+.video-area {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 74%;
+    padding: 25px 0 10px;
+    background-color: #C77A63;
+}
+
+.video-btn {
+  font-size: 67px;
+}
+
+.video-title {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.4;
+  padding: 0 23px 0;
+}
+
+.offer-main-wrapper {
+  background-color: #FAF5F2;
+  padding: 150px 120px;
+}
+
+.each-offer-words {
+  text-align: center;
+  background: #fff;
+  padding: 23px 10px;
+  margin: -50px 30px 0;
+  position: relative;
+}
+
+.offer-inner-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.off-percent {
+  width: 80px;
+  height: 80px;
+  background-color: #C77A63;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  right: 7%;
+}
+
+.each-offer-image {
+  position: relative;
+
+}
+
+.each-offer:hover img{
+  max-width: 410px;
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.offer-video-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/video-1.jpg);
+  padding: 500px 0 0 0 ;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 150px 50px 0 50px;
+  position: relative;
+  background-size: cover;
+}
+
+.below-off-video-btn {
+  color: white;
+  transition: .3s;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 100px;
+}
+
+.below-off-video-btn:hover {
+  color: #C77A63;
+  cursor: pointer;
+}
+
+.reservation-header {
+  color: white;
+}
+
+.make-reservation-main-wrapper {
+  background-image: url(images/pattern-4.png);
+  background-color: #C77A63;
+}
+
+.about-checkavaicontent input{
+  background: transparent;
+}
+
+.about-checkavaicontent input::placeholder {
+  color: white;
+}
+
+.about-checkavaicontent select{
+  background: transparent;
+}
+
+.about-checkavaicontent select::placeholder {
+  color: white;
+}
+
+.about-checkAvaiBtn {
+  background-color: white;
+  color: #222;
+  margin: 18px 0 0 0;
+
+}
+
+.make-reservation-inner-wrapper {
+  padding: 90px 0;
+}
+
+.about-check-avai-label {
+  color: white;
+}
+
+.about-amenities-main-wrapper {
+  padding: 0 0 35px 0;
+}
+
+.dedicated-team-inner-wrapper {
+  padding: 150px 0 150px;
+}
+
+.about-team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.member-post {
+  text-align: center;
+}
+
+.member-header-title {
+  padding: 25px 0 0;
+}
+
+.about-member-title {
+  letter-spacing: 1px;
+  font-size: 60px;
+    font-weight: 700;
+    /* line-height: 1; */
+    position: relative;
+    /* line-height: 1.25em; */
+    margin: 0;
+    background: none;
+    color: #2b2d42;
+    font-family: "Cormorant", sans-serif;
+    padding: 0 0 50px 0;
+}
+
+.each-about-team-member:hover{
+  opacity: rgba(0,0,0,0.1);
+  position: relative;
+}
+
+
+.each-team-social {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.about-team-socials {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.featured-special-inner-wrapper {
+  padding: 150px 0;
+}
+
+.featured-special-main-wrapper {
+  background-image: url(images/pattern-2.png);
+  background-color: #FAF5F2;
+}
+
+.special-featured-list {
+  display: flex;
+  gap: 30px;
+}
+
+.each-special-featured {
+  background-color: white;
+}
+
+.each-special-img {
+  position: relative;;
+}
+
+.each-special-img img {
+  width: 100%;
+}
+
+.each-special-words {
+  padding: 40px;
+}
+
+.special-card-desc {
+  padding: 0;
+}
+
+.special-para {
+  margin: 0;
+  padding: 0;
+}
+
+.special-off-percent {
+  top: 85%;
+}
+
+/* ------------------------------------------------about-us-start------------------------------------------------------------- */
