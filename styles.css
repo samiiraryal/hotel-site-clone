@@ -1220,6 +1220,10 @@ p {
   text-align: center;
 }
 
+/* .member-image {
+  position: relative;
+} */
+
 .member-header-title {
   padding: 25px 0 0;
 }
@@ -1240,7 +1244,11 @@ p {
 
 .each-about-team-member:hover{
   opacity: rgba(0,0,0,0.1);
+}
+
+.each-about-team-member {
   position: relative;
+
 }
 
 
@@ -1261,6 +1269,12 @@ p {
   position: absolute;
   top: 40%;
   left: 35%;
+  visibility: hidden;
+}
+
+.each-about-team-member:hover .each-team-social {
+  visibility: visible;
+  transition: 0.2s;
 }
 
 .featured-special-inner-wrapper {
