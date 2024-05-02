@@ -368,10 +368,10 @@
   padding: 85px 0 0 0;
 }
 
-.about-para {
+/* .about-para {
   color: #6e6e6e;
     line-height: 1.8;
-}
+} */
 
 .about-img:hover img{
   transform: scale(1.1);
@@ -573,11 +573,15 @@
 
 .amenity-title {
   text-transform: uppercase;
+  font-weight: 500;
+  color: #6e6e6e;
 }
 
 .material-symbols-outlined {
   font-size: 45px;
 }
+
+
 
 /* <!-- ----------------------------------------------------amenities-end----------------------------------------------------- --> */
 
@@ -638,8 +642,6 @@
 .about-para {
   margin-bottom: 20px;
     line-height: 1.8rem;
-    font-size: 18px;
-    color: #222;
 }
 
 .testimonial-name {
@@ -884,3 +886,106 @@
 
 
 /* <!-- ----------------------------------------------------contact-us-end---------------------------------------------------- --> */
+
+
+
+
+
+/* <!-- ----------------------------------------------------footer-start---------------------------------------------------- --> */
+
+.footer-main-wrapper {
+  background-color: #252638;
+  color: white;
+  padding: 120px 0 120px;
+}
+
+.inner-footer-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.add-contact {
+  display: flex;
+  gap: 20px;
+  padding: 0 0 30px 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 27px;
+}
+
+.footer-list {
+  padding: 0;
+}
+
+.footer-list  li a{
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  color: #bebec3;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
+
+.footer-list li a:hover {
+  color: #C77A63;
+}
+
+.footer-list ul,li {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 19px;
+}
+
+.subscribe-input {
+  padding: 13px 13px 18px 13px;
+  background-color: #252638;
+  border: 1px solid;
+  border-color: hsla(0,0%,100%,.15);
+}
+
+.subscribe-input:focus {
+  border-color: #C77A63 !important;
+  border-radius: 0%;
+}
+
+.Subscribe-btn {
+  color: white;
+  margin: -4px;
+}
+
+.footer-each-header {
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1.25em;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.right-add-contact {
+  color: #bebec3;
+  line-height: 35px;
+}
+
+.left-add-contact {
+  line-height: 35px;
+}
+
+.hours-footer {
+  width: 17%;
+}
+
+p {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+
+.footer-para {
+  color: #bebec3;
+}
+
+/* <!-- ----------------------------------------------------footer-end---------------------------------------------------- --> */
