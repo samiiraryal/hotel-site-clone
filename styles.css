@@ -1320,4 +1320,67 @@ p {
   top: 85%;
 }
 
+.menu-of-the-day-main-wrapper {
+  background-color: #FCFCFC;
+}
+
+.menu-of-the-day-inner-wrapper {
+  padding: 120px 0;
+}
+
+.list-of-the-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.each-menu-of-list {
+  box-shadow: 0 10px 80px rgba(0, 0, 0, .07);
+    position: relative;
+    padding: 40px 40px 25px 40px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.border-img {
+  height: 1px;
+}
+
+.price-desc {
+  padding: 28px 0 0 0;
+}
+
+.price-of-each {
+  font-size: 22px;
+  line-height: 1.8rem;
+  color: #C77A63;
+}
+
+.popular-dishes-main-wrapper {
+  background-color: #FAF5F2;
+  padding: 120px 0;
+}
+
+h4 {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.25em;
+}
+
+.red-price {
+  color: #C77A63;
+  padding: 0 10px 0 0 ;
+}
+
+.bottom-price-list {
+  color: #6e6e6e;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
 /* ------------------------------------------------about-us-start------------------------------------------------------------- */
