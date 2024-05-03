@@ -1,3 +1,15 @@
+h2 {
+  font-family: "Cormorant", sans-serif;
+    position: relative;
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    transition: all .5s ease;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    line-height: 4rem;
+}
+
 
 .sticky-nav {
   position: sticky;
@@ -830,6 +842,16 @@
     width: 100%;
 }
 
+.contact-form::before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .contact-form input {
   border: none;
     border-bottom: 1px solid gray;
@@ -1371,6 +1393,7 @@ h4 {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.25em;
+  letter-spacing: 5px;
 }
 
 .red-price {
@@ -1661,5 +1684,55 @@ h3 {
 .comment-btn {
   padding: 2px 0;
 }
+
+.contact-inner-wrapper {
+  padding: 150px 0;
+}
+
+.location-name-each {
+  letter-spacing: 0;
+  font-size: 20px;
+}
+
+.location-icon {
+  color: #C77A63;
+  padding: 0 10px 0 0;
+}
+
+.location-icon-wrapper {
+  display: flex;
+}
+
+.location-wrapper {
+  display: flex;
+  border-right: 1px solid lightgray;
+  gap: 25px;
+}
+
+.location-each {
+  border-right: 1px solid lightgray;
+  padding: 0 28px 0 0;
+}
+
+.last-location-each {
+  border: none;
+}
+
+a {
+  color: #676767;
+}
+
+a:hover {
+  color: #C77A63;
+  transition: 0.3s;
+}
+
+.contact-and-map-inner-wrapper {
+  display: flex;
+  gap: 30px;
+  background-color: #FFFFFF;
+}
+
+
 /* ------------------------------------------------about-us-start------------------------------------------------------------- */
 
