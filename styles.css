@@ -362,6 +362,7 @@
 .about-heading {
   text-align: left;
   line-height: 1;
+  letter-spacing: 0;
 }
 
 .about-desc {
@@ -1409,5 +1410,154 @@ h4 {
 .card-start-above {
   top: 61%;
 }
+
+.blog-body-inner-wrapper {
+  display: flex;
+  /* gap: 30px; */
+  padding: 150px 0;
+  justify-content: space-between;
+}
+
+.blog-right-top-search {
+  background-color: #FAF5F2;
+  padding: 40px;
+  margin: 0 0 40px;
+}
+
+.blog-search-icon-part input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.blog-search-icon-part i {
+  color: lightgray;
+  padding: 0 0 10px 0;
+}
+
+.blog-search-header {
+  padding: 0 0 30px 0;
+}
+
+.blog-left-section {
+  padding: 0 15px 0 0;
+  width: calc(100% - 426px);
+}
+
+.blog-right-section {
+  /* padding: 0 0 0 45px; */
+  width: 370px;
+}
+
+.category-list {
+  margin: 0 -30px;
+}
+
+.category-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.bottom-categoty {
+  width: 90%;
+}
+
+.date-of-blog {
+  
+}
+
+.bottom-content-blog {
+  padding: 30px 0;
+}
+
+.admin {
+  margin-right: 20px;
+  color: #6e6e6e;
+}
+
+.blog-heading {
+  padding: 0 0 10px 0;  
+}
+
+.blog-content {
+  padding: 0 167px 0 0;
+}
+
+.blog-blockquote{
+  background-color: #FAF5F2;
+  padding: 50px 72px 30px 50px;
+  font-weight: 500;
+  color: dimgray;
+}
+
+.inner-image-wrapper {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.blog-inner-header {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 700;
+  padding: 0 5px 0 0;
+  font-size: 24px;
+}
+
+.blog-inner-header a {
+  text-decoration: none;
+  color: #252638;
+}
+
+.quote-icon-blog {
+  font-size: 30px;
+}
+
+.name-blog {
+  font-size: 18px;
+  padding: 50px;
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0 0 0 50px;
+}
+
+.popular-tags-blog {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.popular-tags-blog ul,li,a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.each-tag {
+  background-color: white;
+  color: #222;
+    display: inline-flex;
+    padding: 4.5px 22px;
+    background: #fff;
+    border-radius: 18px;
+    font-weight: 600;
+}
+
+.each-tag:hover {
+  background-color: #C77A63;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.each-tag-1 {
+  border: 1px solid lightgray;
+}
+
+.each-tag-1:hover {
+  border: 1px solid white;
+}
+
 
 /* ------------------------------------------------about-us-start------------------------------------------------------------- */
