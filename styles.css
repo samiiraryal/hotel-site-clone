@@ -2017,5 +2017,31 @@ a:hover {
   padding: 150px 0;
 }
 
+.testimonials-list {
+  display: flex;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.testimonials-page-inner-wrapper {
+  padding: 150px 0;
+}
+
+/* .each-testimonial {
+  background: #fff;
+    text-align: center;
+    padding: 50px 50px 0;
+    box-shadow: 0 10px 80px rgba(0, 0, 0, .07);
+} */
+
+.testimonial-quote-icon {
+  padding: 0 0 30px 0;
+}
+
+.testimonial-quote-para {
+  padding: 25px 0 0 0;
+}
+
+
 /* ------------------------------------------------about-us-start------------------------------------------------------------- */
 
